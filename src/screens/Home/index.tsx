@@ -133,7 +133,7 @@ export function Home() {
           If it is, show an ActivityIndicator
           Otherwise, show Feather's power icon*/}
           {isLoggingOut ? (<ActivityIndicator color={theme.colors.white} size={25}/>) :
-          (<Feather color={theme.colors.white} size={24}/>)}
+          (<Feather name="power" color={theme.colors.white} size={24}/>)}
 
         </SignOutButton> 
       </Header>
